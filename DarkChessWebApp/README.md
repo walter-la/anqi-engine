@@ -20,3 +20,13 @@ yarn web
 ```bash
 yarn test
 ```
+
+## Building
+
+Generate a static build for deployment:
+
+```bash
+yarn build
+```
+
+The exported site appears in the `web-build/` folder and can be deployed to services like Cloudflare Pages.
